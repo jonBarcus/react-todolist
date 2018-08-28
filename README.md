@@ -111,7 +111,7 @@ This repo contains the code for the backend service that is built using Nodejs a
     - Select the Compartment you would like all your resources to be located in
     - **Name**: *OCI-DEMOVCN*
     - Select **Create Virtual Cloud Network Plus Related Resources**
- 4.  At the bottom left of the window, click **Create Virtual Cloud Network**
+ 4. At the bottom left of the window, click **Create Virtual Cloud Network**
  5. You will be redirected to the VCN details page 
  6. Click **Close**
  7. Click on the *OCI-DEMOVCN*
