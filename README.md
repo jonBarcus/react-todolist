@@ -111,18 +111,21 @@ This repo contains the code for the backend service that is built using Nodejs a
     - Select the Compartment you would like all your resources to be located in
     - **Name**: *OCI-DEMOVCN*
     - Select **Create Virtual Cloud Network Plus Related Resources**
- 4. You will be redirected to the VCN details page 
- 5. On the left, click **Security Lists**
- 6. Click **Default Security List for \<VCN Name\>**
- 7. Click **Edit All Rules**
- 8. Scroll down and click **Add Rule**
- 9. Enter the following details for the new rule:
+ 4.  At the bottom left of the window, click **Create Virtual Cloud Network**
+ 5. You will be redirected to the VCN details page 
+ 6. Click **Close**
+ 7. Click on the *OCI-DEMOVCN*
+ 8. On the left, click **Security Lists**
+ 9. Click **Default Security List for \<VCN Name\>**
+ 10. Click **Edit All Rules**
+ 11. Scroll down and click **Add Rule** under *Allow Rules for Ingress*
+ 12. Enter the following details for the new rule:
     - **SOURCE TYPE**: *CIDR*
     - **SOURCE CIDR**: *0.0.0.0/0*
     - **IP PROTOCOL**: *TCP*
     - **SOURCE PORT RANGE**: *ALL*
     - **DESTINATION PORT RANGE**: *6200, 80*
-
+ 13. Click **Save Security List Rules**
  You have now just create a Virtual Cloud Network (VCN) and allowed the necessary ports to be opened to run your web app.
 
 ## Create a Compute Instance
